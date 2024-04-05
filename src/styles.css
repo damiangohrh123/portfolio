@@ -1,0 +1,52 @@
+@font-face {
+  font-family: lightFont;
+  src: url('./Lato-Light.woff') format('truetype');
+}
+
+@font-face {
+  font-family: regularFont;
+  src: url('./Lato-Regular.woff') format('truetype'); 
+}
+
+@font-face {
+  font-family: boldFont;
+  src: url('./Oswald-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: bigBoldFont; 
+  src: url('./Oswald-Bold.ttf') format('truetype');
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+
+  font-family: lightFont;
+  letter-spacing: 4px;
+
+  color: var(--fontColor);
+}
+
+.light {
+  font-family: lightFont;
+}
+
+.regular {
+  font-family: regularFont;
+}
+
+.thin {
+  font-family: thinFont;
+}
+
+.bold {
+  font-family: boldFont;
+}
+
+.bigBold {
+  font-family: bigBoldFont;
+  font-size: 100px;
+  letter-spacing: -4px;
+}
