@@ -1,4 +1,9 @@
 @font-face {
+  font-family: thinFont; 
+  src: url('./Lato-Thin.ttf') format('truetype');
+}
+
+@font-face {
   font-family: lightFont;
   src: url('./Lato-Light.woff') format('truetype');
 }
@@ -18,35 +23,108 @@
   src: url('./Oswald-Bold.ttf') format('truetype');
 }
 
+:root {
+  --font-color: rgb(70, 70, 70);
+  --border-color: rgb(167, 142, 142);
+  --font-size-base: 16px;
+}
+
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+}
 
+html {
+  /* Font baseline*/
   font-family: lightFont;
-  letter-spacing: 4px;
-
-  color: var(--fontColor);
+  font-size: var(--font-size-base);
+  letter-spacing: 3px;
+  color: var(--font-color);
 }
 
-.light {
-  font-family: lightFont;
-}
-
-.regular {
-  font-family: regularFont;
-}
-
-.thin {
+h6 {
   font-family: thinFont;
+  font-size: 2rem;
 }
 
-.bold {
-  font-family: boldFont;
+h5 {
+  font-family: lightFont;
+  font-size: 3rem;
 }
 
-.bigBold {
+h4 {
   font-family: bigBoldFont;
-  font-size: 100px;
   letter-spacing: -4px;
+}
+
+.divider {
+  border-top: 1px solid var(--border-color);
+  border-bottom: none;
+  margin: 150px 20px 20px 20px;
+}
+
+.dividerInvisible {
+  border: none;
+  margin: 150px 50px;
+}
+
+.navBar {
+  position: fixed;
+  width: 100%;
+  height: 100px;
+
+  display: flex;
+  justify-content: space-between;
+
+  padding: 20px;
+}
+
+body {
+  background-image: url("./backgroundImg.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+
+  height: 100vh;
+}
+
+.content {
+  position: relative;
+  z-index: 2;
+  padding: 0 200px 200px 200px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.introduction {
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+
+  padding-top: 580px;
+}
+
+.aboutMe {
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+  text-align: center;
+}
+
+.aboutMeHeader {
+  display: flex;
+  gap: 200px;
+}
+
+.projectsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 10px;
+}
+
+.gridCell {
+  
 }
