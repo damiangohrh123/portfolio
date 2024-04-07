@@ -1,25 +1,3 @@
-.slideshowContainer {
-  width: 100%;
-  height: 820px;
-  display: flex;
-  justify-content: space-between;
-}
-
-.slides {
-  width: 100%;
-}
-
-.slide {
-  width: 100%;
-  height: 100%;
-
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-
-  border-radius: 10px;
-}
-
 .pic1 {
   background-image: url("../images/angel.png");
 }
@@ -54,4 +32,93 @@
 
 .pic9 {
   background-image: url("../images/titans.png");
+}
+
+.slideshowContainer {
+  width: 100%;
+  height: 700px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.prev {
+  position: relative;
+  z-index: 1;
+}
+
+.next {
+  position: relative;
+  z-index: 1;
+}
+
+.slides {
+  width: 90%;
+  position: relative;
+}
+
+.slide {
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+  position: absolute;
+  
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  border-radius: 10px;
+}
+
+/* Animation for slide-in effect */
+@keyframes slideInLeft {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInRight {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideOutLeft {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+@keyframes slideOutRight {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.slide.slide-in-left {
+  animation: slideInLeft 0.5s forwards;
+}
+
+.slide.slide-in-right {
+  animation: slideInRight 0.5s forwards;
+}
+
+.slide.slide-out-left {
+  animation: slideOutLeft 0.5s forwards;
+}
+
+.slide.slide-out-right {
+  animation: slideOutRight 0.5s forwards;
 }
