@@ -6,69 +6,39 @@
 
 .projectsGrid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(600px, 1fr));
-  grid-auto-rows: 500px;
-  grid-gap: 100px 8px;
+  grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
+  grid-auto-rows: 300px;
+  grid-gap: 100px 50px;
 }
 
 .projectsGrid > a {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 12px;
 }
 
 .gridCell {
   width: 100%;
   height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 
   border-radius: 5px;
 }
 
-.gridImg {
-  width: 75%;
-  height: 60%;
-
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
 .weatherCell {
-  background-image: url("../images/weatherBlurred.png");
-}
-
-.weatherImg {
   background-image: url("../images/weather.png");
 }
 
 .restaurantCell {
-  background-image: url("../images/restaurantBlurred.png");
-}
-
-.restaurantImg {
   background-image: url("../images/restaurant.png");
 }
 
 .snookerCell {
-  background-image: url("../images/snookerBlurred.png");
-}
-
-.snookerImg {
   background-image: url("../images/snooker.png");
 }
 
 .knightCell {
-  background-image: url("../images/knightBlurred.png");
-}
-
-.knightImg {
   background-image: url("../images/knight.png");
 }

@@ -72,6 +72,47 @@ function stopAutoScroll() {
   clearInterval(autoScrollInterval);
 }
 
+// Previous scroll location
+let lastScroll = 0;
+
+window.addEventListener('scroll', () => {
+  // Get current scroll location
+  const currentScroll = window.scrollY;
+
+  // Get the trigger point for all the sections
+  const introductionTrigger = document.querySelector(".introductionSection").getBoundingClientRect().top + currentScroll - 250;
+  const projectTrigger = document.querySelector(".projectSection").getBoundingClientRect().top + currentScroll - 250;
+  const artTrigger = document.querySelector(".artSection").getBoundingClientRect().top + currentScroll - 250;
+
+  // Change background color based on scroll distance of Y
+  if (currentScroll > introductionTrigger) {
+    document.documentElement.style.setProperty('--background-color', 'var(--introduction-color)');
+  } else {
+    document.documentElement.style.removeProperty('--background-color');
+  }
+
+  if (currentScroll > projectTrigger) {
+    document.documentElement.style.setProperty('--background-color', 'var(--project-color)');
+  }
+
+  if (currentScroll > artTrigger) {
+    document.documentElement.style.setProperty('--background-color', 'var(--art-color)');
+  }
+
+  // Hiding and displaying of nav bar
+  const navBar = document.querySelector(".navBar");
+
+  // Scolling down
+  if (currentScroll > lastScroll) navBar.classList.add("hidden");
+  // Scrolling up
+  if (currentScroll < lastScroll) navBar.classList.remove("hidden");
+
+  lastScroll = currentScroll;
+
+  
+
+});
+
 // Initialize auto scrolling
 showSlides();
 startAutoScroll();

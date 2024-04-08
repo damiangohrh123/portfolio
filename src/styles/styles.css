@@ -1,9 +1,4 @@
 @font-face {
-  font-family: thinFont; 
-  src: url("../fonts/Lato-Thin.ttf") format("truetype");
-}
-
-@font-face {
   font-family: lightFont;
   src: url("../fonts/Lato-Light.woff") format("truetype");
 }
@@ -25,7 +20,10 @@
 
 :root {
   --font-color: rgb(70, 70, 70);
-  --border-color: rgb(167, 142, 142);
+  --background-color:white;
+  --introduction-color: rgb(187, 255, 230);
+  --project-color: rgb(187, 239, 255);
+  --art-color: rgb(187, 198, 255); 
   --font-size-base: 16px;
 }
 
@@ -36,14 +34,19 @@
 }
 
 html {
-  font-family: lightFont;
+  font-family: regularFont;
   font-size: var(--font-size-base);
   letter-spacing: 3px;
   color: var(--font-color);
 }
 
+body {
+  transition: background-color 0.5s ease;
+  background-color: var(--background-color);
+}
+
 h6 {
-  font-family: thinFont;
+  font-family: lightFont;
   font-size: 2rem;
 }
 
@@ -55,6 +58,7 @@ h5 {
 h4 {
   font-family: bigBoldFont;
   letter-spacing: -4px;
+  font-size: 100px;
 }
 
 a {
@@ -65,39 +69,22 @@ a:visited {
   color: var(--font-color);
 }
 
-.divider {
-  border-top: 1px solid var(--border-color);
-  border-bottom: none;
-  margin: 150px 0 20px 0;
-}
-
-.dividerInvisible {
-  border: none;
-  margin: 150px 0 20px 0;
-}
-
-body {
-  background-image: url("../images/backgroundImg.jpeg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-attachment: fixed;
-
-  height: 100vh;
-}
-
 .content {
-  position: relative;
-  z-index: 2;
-  padding: 0 200px 200px 200px;
-
   display: flex;
   flex-direction: column;
+
+  width: 100%;
+  transition: background-color 0.5s ease;
+  clip-path: inset(0 100px 0 100px);
 }
 
 .previewContainer {
   height: 600px;
   background-color: aliceblue;
+}
+
+.section {
+  padding: 50px 100px 50px 100px;
 }
 
 .sectionHeader {
