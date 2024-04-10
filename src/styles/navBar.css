@@ -11,11 +11,17 @@
   animation: display 350ms ease-out forwards;
   background-color: var(--background-color);
 
-  z-index: 1000;
+  z-index: 10;
 }
 
 .navBar.hidden {
   animation: hide 350ms ease-in forwards;
+}
+
+.navBar button {
+  border: none;
+  background-color: transparent;
+  color: var(--font-color);
 }
 
 @keyframes hide {

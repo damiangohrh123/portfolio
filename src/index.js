@@ -125,6 +125,12 @@ function handleBanner(currentScroll) {
   
   // Apply the interpolated background color to the element
   banner.style.backgroundColor = `rgb(${interpolatedColor.join(',')})`;
+
+  // Calculate the new background size based on the scroll position
+  const newSize = 80 + currentScroll * 0.05; // Adjust multiplier as needed
+
+  // Apply the new background size to the banner
+  banner.style.backgroundSize = `${newSize}%`;
 }
 
 window.addEventListener('scroll', () => {
