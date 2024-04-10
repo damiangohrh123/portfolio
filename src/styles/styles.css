@@ -19,12 +19,14 @@
 }
 
 :root {
-  --font-color: rgb(70, 70, 70);
-  --background-color:white;
-  --introduction-color: rgb(187, 255, 230);
-  --project-color: rgb(187, 239, 255);
-  --art-color: rgb(187, 198, 255); 
+  --font-color: var(--dark-grey);
+  --background-color: var(--grey);
+  --art-color: rgb(12, 12, 13); 
   --font-size-base: 16px;
+
+  --dark-grey: rgb(70, 70, 70);
+  --grey: rgb(242, 242, 242);
+  --green: rgb(57, 192, 63);
 }
 
 * {
@@ -56,8 +58,7 @@ h5 {
 }
 
 h4 {
-  font-family: bigBoldFont;
-  letter-spacing: -4px;
+  font-family: lightFont;
   font-size: 100px;
 }
 
@@ -75,22 +76,16 @@ a:visited {
 
   width: 100%;
   transition: background-color 0.5s ease;
-  clip-path: inset(0 100px 0 100px);
-}
-
-.previewContainer {
-  height: 600px;
-  background-color: aliceblue;
 }
 
 .section {
-  padding: 50px 100px 50px 100px;
+  padding: 50px 100px 100px 100px;
 }
 
 .sectionHeader {
   display: flex;
   gap: 200px;
-  margin-bottom: 100px;
+  margin-bottom: 30px;
 
   font-size: 12px;
 }

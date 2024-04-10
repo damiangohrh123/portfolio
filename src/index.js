@@ -72,33 +72,28 @@ function stopAutoScroll() {
   clearInterval(autoScrollInterval);
 }
 
+// Initialize auto scrolling
+showSlides();
+startAutoScroll();
+
 // Previous scroll location
 let lastScroll = 0;
 
-window.addEventListener('scroll', () => {
-  // Get current scroll location
-  const currentScroll = window.scrollY;
-
+function handleArtSection(currentScroll) {
   // Get the trigger point for all the sections
-  const introductionTrigger = document.querySelector(".introductionSection").getBoundingClientRect().top + currentScroll - 250;
-  const projectTrigger = document.querySelector(".projectSection").getBoundingClientRect().top + currentScroll - 250;
   const artTrigger = document.querySelector(".artSection").getBoundingClientRect().top + currentScroll - 250;
 
   // Change background color based on scroll distance of Y
-  if (currentScroll > introductionTrigger) {
-    document.documentElement.style.setProperty('--background-color', 'var(--introduction-color)');
-  } else {
-    document.documentElement.style.removeProperty('--background-color');
-  }
-
-  if (currentScroll > projectTrigger) {
-    document.documentElement.style.setProperty('--background-color', 'var(--project-color)');
-  }
-
   if (currentScroll > artTrigger) {
-    document.documentElement.style.setProperty('--background-color', 'var(--art-color)');
+    document.documentElement.style.setProperty("--background-color", "var(--art-color)");
+    document.documentElement.style.setProperty("--font-color", "var(--grey)");
+  } else {
+    document.documentElement.style.removeProperty("--background-color");
+    document.documentElement.style.setProperty("--font-color", "var(--dark-grey)");
   }
+}
 
+function handleNavBar(currentScroll) {
   // Hiding and displaying of nav bar
   const navBar = document.querySelector(".navBar");
 
@@ -108,12 +103,36 @@ window.addEventListener('scroll', () => {
   if (currentScroll < lastScroll) navBar.classList.remove("hidden");
 
   lastScroll = currentScroll;
+}
 
+// Linear interpolation function for color values
+function lerpColor(color1, color2, t) {
+  return color1.map((channel, i) => Math.round(channel + (color2[i] - channel) * t));
+}
+
+function handleBanner(currentScroll) {
+  const banner = document.querySelector(".banner");
+  const topBanner = banner.getBoundingClientRect().top + currentScroll - 500;
+  const bottomBanner = banner.getBoundingClientRect().bottom + currentScroll - 500;
+  const startColor = [58, 193, 63];
+  const endColor = [121, 124, 252];
+
+  // Calculate the scroll position relative to the trigger points as a percentage
+  const scrollPercentage = Math.max(0, Math.min(1, (currentScroll - topBanner) / (bottomBanner - topBanner)));
   
+  // Interpolate the background color based on the scroll percentage
+  const interpolatedColor = lerpColor(startColor, endColor, scrollPercentage);
+  
+  // Apply the interpolated background color to the element
+  banner.style.backgroundColor = `rgb(${interpolatedColor.join(',')})`;
+}
 
+window.addEventListener('scroll', () => {
+  // Get current scroll location
+  const currentScroll = window.scrollY;
+
+  // Handle scroll functions
+  handleArtSection(currentScroll);
+  handleNavBar(currentScroll);
+  handleBanner(currentScroll);
 });
-
-// Initialize auto scrolling
-showSlides();
-startAutoScroll();
-

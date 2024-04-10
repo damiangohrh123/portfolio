@@ -1,75 +1,74 @@
-.pic1 {
+.img1 {
   background-image: url("../images/angel.png");
 }
 
-.pic2 {
+.img2 {
   background-image: url("../images/contrast.png");
 }
 
-.pic3 {
+.img3 {
   background-image: url("../images/eren2.png");
 }
 
-.pic4 {
+.img4 {
   background-image: url("../images/evangelion.png");
 }
 
-.pic5 {
+.img5 {
   background-image: url("../images/hsr.png");
 }
 
-.pic6 {
+.img6 {
   background-image: url("../images/mhw.png");
 }
 
-.pic7 {
+.img7 {
   background-image: url("../images/ramen.png");
 }
 
-.pic8 {
+.img8 {
   background-image: url("../images/solitude.png");
 }
 
-.pic9 {
+.img9 {
   background-image: url("../images/titans.png");
 }
 
 .slideshowContainer {
   width: 100%;
-  height: 700px;
-  display: flex;
+  height: 750px;
   position: relative;
+  overflow-x: hidden;
 }
 
 .prev, .next {
-  height: 100%;
-  width: 60px;
-  z-index: 2;
+  height: 40px;
+  width: 40px;
   border: none;
-  transition: background-color 0.5s ease;
-  background-color: var(--background-color);
+  background-color: transparent;
+}
+
+.imageControl {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 2;
 }
 
 .frame {
-  position: absolute;
-  top: 0;
-  left: 60px;
-  width: calc(100% - 120px);
+  width: 100%;
   height: 100%;
+  position: absolute;
   z-index: 1;
-  border-radius: 10px;
+  border-radius: 20px;
   transition: background-color 0.5s ease, box-shadow 0.5s ease;
-  box-shadow: 0 0 0px 10px var(--background-color);
-}
-
-.slides {
-  flex: 1;
+  box-shadow: 0 0 0 20px var(--background-color);
 }
 
 .slide {
-  width: calc(100% - 120px);
+  width: 100%;
   height: 100%;
-  display: inline-block;
   position: absolute;
   
   background-size: cover;
@@ -115,17 +114,17 @@
 }
 
 .slide.slide-in-left {
-  animation: slideInLeft 0.5s forwards;
+  animation: slideInLeft 500ms forwards;
 }
 
 .slide.slide-in-right {
-  animation: slideInRight 0.5s forwards;
+  animation: slideInRight 500ms forwards;
 }
 
 .slide.slide-out-left {
-  animation: slideOutLeft 0.5s forwards;
+  animation: slideOutLeft 500ms forwards;
 }
 
 .slide.slide-out-right {
-  animation: slideOutRight 0.5s forwards;
+  animation: slideOutRight 500ms forwards;
 }

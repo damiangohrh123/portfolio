@@ -5,3 +5,28 @@
 
   margin-top: 600px;
 }
+
+.previewContainer {
+  display: flex;
+  height: 600px;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+.banner {
+  height: 100%;
+  flex-basis: 1200px;
+  background-color: rgb(63, 194, 91);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../images/banner.png);
+  border-radius: 20px;
+}
+
+.previewInfo {
+  height: 100%;
+  flex-basis: 400px;
+  background-color: white;
+  border-radius: 20px;
+}
