@@ -8,6 +8,7 @@ import "./styles/projects.css";
 // Import modules
 import { changeSlides, showSlides, startAutoScroll, stopAutoScroll } from './slides.js';
 import { handleArtSection, handleNavBar, handleBanner } from "./scroll.js";
+import { moveImg } from './projectImg.js';
 
 // Initialize auto scrolling
 showSlides();
@@ -24,7 +25,6 @@ window.addEventListener('scroll', () => {
   handleBanner(currentScroll);
 });
 
-
 // Handle button clicks
 const prevBtn = document.querySelector(".prev");
 const nextBtn = document.querySelector(".next");
@@ -40,3 +40,18 @@ nextBtn.addEventListener("click", () => {
   stopAutoScroll();
   startAutoScroll();
 });
+
+// Handle image movement when mouse enters project grids
+const containers = document.querySelectorAll(".gridCell");
+
+containers.forEach(container => {
+  const image = container.querySelector(".gridImg");
+
+  container.addEventListener("mousemove", (e) => {
+    moveImg(container, image, e);
+  });
+
+  container.addEventListener("mouseleave", () => {
+    image.style.transform = "translate(0, 0)";
+  })
+})

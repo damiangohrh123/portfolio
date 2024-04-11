@@ -24,7 +24,7 @@
   --art-color: rgb(12, 12, 13); 
   --font-size-base: 16px;
 
-  --dark-grey: rgb(70, 70, 70);
+  --dark-grey: rgb(44, 44, 44);
   --grey: rgb(242, 242, 242);
   --green: rgb(57, 192, 63);
 }
@@ -59,7 +59,7 @@ h5 {
 
 h4 {
   font-family: lightFont;
-  font-size: 100px;
+  font-size: 4rem;
 }
 
 a {
@@ -91,7 +91,5 @@ button {
 .sectionHeader {
   display: flex;
   gap: 200px;
-  margin-bottom: 30px;
-
-  font-size: 12px;
+  margin-bottom: 50px;
 }
