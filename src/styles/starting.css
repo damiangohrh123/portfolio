@@ -1,0 +1,26 @@
+.starting {
+  width: 100vw;
+  height: 2000px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden;
+}
+
+.circle {
+  position: fixed;
+  width: 200px;
+  height: 200px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  background-color: var(--grey);
+  border-radius: 1000px;
+  transition: transform 0.5s, width 0.5s, height 0.5s;
+}
+
+.circle > h6 {
+  width: 100%;
+  position: absolute;
+}
