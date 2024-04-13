@@ -27,7 +27,7 @@
 
   visibility: visible;
   opacity: 1;
-  transition: opacity 0.3s ease, visibility 0.3s; 
+  transition: opacity 100ms ease, visibility 100ms; 
 }
 
 .startingText.hidden {

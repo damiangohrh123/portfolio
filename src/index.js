@@ -1,5 +1,6 @@
 // Import styles
 import "./styles/styles.css";
+import "./styles/navBar.css";
 import "./styles/aboutMe.css";
 import "./styles/art.css";
 import "./styles/introduction.css";
@@ -8,7 +9,7 @@ import "./styles/starting.css";
 
 // Import modules
 import { changeSlides, showSlides, startAutoScroll, stopAutoScroll } from './slides.js';
-import { handleBanner, handleBackground } from "./scroll.js";
+import { handleBanner, handleBackground, handleNavBar } from "./scroll.js";
 import { moveImg } from './projectImg.js';
 
 // Initialize auto scrolling
@@ -21,6 +22,7 @@ window.addEventListener('scroll', () => {
   const currentScroll = window.scrollY;
 
   // Handle scroll functions
+  handleNavBar(currentScroll);
   handleBanner(currentScroll);
   handleBackground(currentScroll);
 });

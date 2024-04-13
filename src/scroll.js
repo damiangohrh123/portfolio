@@ -1,6 +1,18 @@
 // Previous scroll location
 let lastScroll = 0;
 
+function handleNavBar(currentScroll) {
+  // Hiding and displaying of nav bar
+  const navBar = document.querySelector(".navBar");
+
+  // Scolling down
+  if (currentScroll > lastScroll) navBar.classList.add("hidden");
+  // Scrolling up
+  if (currentScroll < lastScroll) navBar.classList.remove("hidden");
+
+  lastScroll = currentScroll;
+}
+
 // Linear interpolation function for color values
 function lerpColor(color1, color2, t) {
   return color1.map((channel, i) => Math.round(channel + (color2[i] - channel) * t));
@@ -58,6 +70,7 @@ function handleBackground(currentScroll) {
 }
 
 export {
+  handleNavBar,
   handleBanner,
   handleBackground
 }

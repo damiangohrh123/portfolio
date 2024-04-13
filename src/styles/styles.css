@@ -90,6 +90,7 @@ button {
 
 .sectionHeader {
   display: flex;
-  gap: 200px;
+  flex-direction: column;
+  gap: 50px;
   margin-bottom: 50px;
 }
