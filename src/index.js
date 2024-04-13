@@ -1,5 +1,6 @@
 // Import styles
 import "./styles/styles.css";
+import "./styles/aboutMe.css";
 import "./styles/art.css";
 import "./styles/introduction.css";
 import "./styles/projects.css";

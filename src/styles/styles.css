@@ -24,7 +24,7 @@
   --art-color: rgb(12, 12, 13); 
   --font-size-base: 16px;
 
-  --dark-grey: rgb(44, 44, 44);
+  --dark-grey: rgb(55, 55, 55);
   --white: white;
   --grey: rgb(235, 235, 235);
   --green: rgb(57, 192, 63);
@@ -39,28 +39,27 @@
 html {
   font-family: regularFont;
   font-size: var(--font-size-base);
-  letter-spacing: 3px;
+  letter-spacing: 2px;
   color: var(--font-color);
 }
 
 body {
-  transition: background-color 0.5s ease;
   background-color: var(--background-color);
 }
 
 h6 {
   font-family: lightFont;
-  font-size: 2rem;
+  font-size: 1rem;
 }
 
 h5 {
   font-family: lightFont;
-  font-size: 3rem;
+  font-size: 2rem;
 }
 
 h4 {
   font-family: lightFont;
-  font-size: 4rem;
+  font-size: 3rem;
 }
 
 a {

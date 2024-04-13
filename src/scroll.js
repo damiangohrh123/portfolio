@@ -27,50 +27,18 @@ function handleBanner(currentScroll) {
   banner.style.backgroundColor = `rgb(${interpolatedColor.join(',')})`;
 
   // Calculate the new background size based on the scroll position
-  const newSize = currentScroll * 0.05 - (bannerHeight / 8);
+  const newSize = currentScroll * 0.05;
 
   // Apply the new background size to the banner
   banner.style.backgroundSize = `${newSize}%`;
 }
 
-function handleCircle(currentScroll) {
-  const circle = document.querySelector(".circle");
-  const startingContainer = document.querySelector(".starting");
-
-  // Calculate bottom of starting container
-  const bottomStarting = startingContainer.getBoundingClientRect().bottom + currentScroll;
-
-  // Calculate the position where circle will be hidden
-  const hideThreshold = bottomStarting * 1.2;
-
-  // Increase circle size
-  const newCircleSize = currentScroll * 2 + 200;
-  circle.style.width = newCircleSize + 'px';
-  circle.style.height = newCircleSize + 'px';
-  
-  // Change background color after circle has expanded to fill screen
-  if (currentScroll > bottomStarting) {
-    document.documentElement.style.setProperty("--background-color", "var(--grey)");
-  } else {
-    document.documentElement.style.setProperty("--background-color", "var(--white)");
-  }
-
-  if (currentScroll > hideThreshold) {
-    circle.style.display = "none";
-  } else {
-    circle.style.display = "block";
-  }
-}
-
 function handleBackground(currentScroll) {
   const circle = document.querySelector(".circle");
-  const startingContainer = document.querySelector(".starting");
+  const startingText = document.querySelector(".startingText");
 
   // Calculate bottom of starting container
-  const bottomStarting = startingContainer.getBoundingClientRect().bottom + currentScroll - 800;
-
-  // Calculate the position where circle will be hidden
-  const hideThreshold = bottomStarting * 1.2;
+  const bottomStarting = document.querySelector(".starting").getBoundingClientRect().bottom + currentScroll - 800;
 
   // Increase circle size
   const newCircleSize = currentScroll * 2 + 200;
@@ -80,26 +48,12 @@ function handleBackground(currentScroll) {
   // Change background color after circle has expanded to fill screen
   if (currentScroll > bottomStarting) {
     document.documentElement.style.setProperty("--background-color", "var(--grey)");
+    circle.style.display = "none";
+    startingText.classList.add("hidden");
   } else {
     document.documentElement.style.setProperty("--background-color", "var(--white)");
-  }
-
-  if (currentScroll > hideThreshold) {
-    circle.style.display = "none";
-  } else {
     circle.style.display = "block";
-  }
-
-  // Get the trigger point for all the sections
-  const artTrigger = document.querySelector(".artSection").getBoundingClientRect().top + currentScroll - 250;
-
-  // Change background color based on scroll distance of Y
-  if (currentScroll > artTrigger) {
-    document.documentElement.style.setProperty("--background-color", "var(--art-color)");
-    document.documentElement.style.setProperty("--font-color", "var(--grey)");
-  } else if (currentScroll > bottomStarting) {
-    document.documentElement.style.removeProperty("--background-color");
-    document.documentElement.style.setProperty("--font-color", "var(--dark-grey)");
+    startingText.classList.remove("hidden");
   }
 }
 
