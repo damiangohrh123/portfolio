@@ -20,11 +20,10 @@ function lerpColor(color1, color2, t) {
 
 function handleBanner(currentScroll) {
   const banner = document.querySelector(".banner");
-  const bannerHeight = banner.getBoundingClientRect().height;
-  const topBanner = banner.getBoundingClientRect().top + currentScroll - bannerHeight;
-  const bottomBanner = banner.getBoundingClientRect().bottom + currentScroll - bannerHeight;
-  const startColor = [58, 193, 63];
-  const endColor = [121, 124, 252];
+  const topBanner = banner.getBoundingClientRect().top + currentScroll - 100;
+  const bottomBanner = banner.getBoundingClientRect().bottom + currentScroll - 400;
+  const startColor = [68, 152, 231];
+  const endColor = [15, 36, 72];
 
   // Calculate the scroll position relative to the trigger points as a percentage
   const scrollDistance = currentScroll - topBanner;
@@ -69,8 +68,27 @@ function handleBackground(currentScroll) {
   }
 }
 
+function handleProjects(currentScroll) {
+  const gridCellContainers = document.querySelectorAll(".gridCellContainer");
+
+  gridCellContainers.forEach((container) => {
+    const height = container.clientHeight;
+    const position = container.getBoundingClientRect().top + currentScroll - height;
+
+    if (position < currentScroll) {
+      if (container.classList.contains("leftGrid")) {
+        container.classList.add("slide-in-left");
+      }
+      if (container.classList.contains("rightGrid")) {
+        container.classList.add("slide-in-right");
+      }
+    }
+  })
+}
+
 export {
   handleNavBar,
   handleBanner,
-  handleBackground
+  handleBackground,
+  handleProjects
 }

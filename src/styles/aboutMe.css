@@ -1,3 +1,7 @@
-.aboutMeText > h6{
+.aboutMeSection {
+  padding: 500px 0;
+}
 
+.aboutMeText > h5{
+  text-align: center;
 }

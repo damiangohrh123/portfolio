@@ -20,6 +20,7 @@
 
 :root {
   --font-color: var(--dark-grey);
+  --font-color-light: rgb(123, 123, 123);
   --background-color: var(--grey);
   --art-color: rgb(12, 12, 13); 
   --font-size-base: 16px;
@@ -28,6 +29,7 @@
   --white: white;
   --grey: rgb(235, 235, 235);
   --green: rgb(57, 192, 63);
+  --light-green: rgb(68, 205, 75);
 }
 
 * {
@@ -45,6 +47,7 @@ html {
 
 body {
   background-color: var(--background-color);
+  overflow-x: hidden;
 }
 
 h6 {
@@ -85,7 +88,7 @@ button {
 }
 
 .section {
-  padding: 50px 150px 100px 150px;
+  padding: 50px 10px 100px 10px;
 }
 
 .sectionHeader {
