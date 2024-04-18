@@ -6,6 +6,7 @@ import "./styles/art.css";
 import "./styles/introduction.css";
 import "./styles/projects.css";
 import "./styles/starting.css";
+import "./styles/socials.css";
 
 // Import modules
 import { changeSlides, showSlides, startAutoScroll, stopAutoScroll } from './slides.js';

@@ -36,7 +36,11 @@
 
 .artText {
   text-align: center;
-  padding: 300px 0;
+  padding: 200px 0 500px 0;
+}
+
+.artSection {
+  padding-bottom: 500px;
 }
 
 .slideshowContainer {

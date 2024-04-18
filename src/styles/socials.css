@@ -1,0 +1,46 @@
+.socials {
+  padding: 100px 300px 100px 300px;
+  display: flex;
+  justify-content: space-between;
+
+  background-color: var(--white);
+  border-radius: 20px;
+  margin: 20px;
+}
+
+.instagramBtn, .youtubeBtn, .gitHubBtn {
+  height: 55px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 100px;
+  font-size: 1.2rem;
+  font-family: boldFont;
+  transition: fill 0.3s;
+}
+
+.gitHubBtn {
+  fill: rgb(43,49,55);
+}
+
+.instagramBtn {
+  fill: rgb(139, 62, 184);
+}
+
+.youtubeBtn {
+  fill: rgb(186, 27, 27);
+}
+
+.gitHubBtn:hover {
+  fill: rgb(75, 85, 95);
+}
+
+.instagramBtn:hover {
+  fill: rgb(178, 86, 231);
+}
+
+.youtubeBtn:hover {
+  fill: rgb(231, 43, 43);
+}
