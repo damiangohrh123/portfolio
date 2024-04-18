@@ -7,6 +7,7 @@ import "./styles/introduction.css";
 import "./styles/projects.css";
 import "./styles/starting.css";
 import "./styles/socials.css";
+import "./styles/scrollbar.css";
 
 // Import modules
 import { changeSlides, showSlides, startAutoScroll, stopAutoScroll } from './slides.js';
