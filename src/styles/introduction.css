@@ -2,11 +2,10 @@
   display: flex;
   justify-content: space-between;
   gap: 50px;
-  padding: 10px;
 }
 
 .banner {
-  height: 1000px;
+  height: 800px;
   width: 100%;
   background-color: rgb(68, 152, 231);
   background-size: cover;

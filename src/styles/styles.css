@@ -18,18 +18,20 @@
   src: url("../fonts/Oswald-Bold.ttf") format("truetype");
 }
 
-:root {
-  --font-color: var(--dark-grey);
-  --font-color-light: rgb(123, 123, 123);
-  --background-color: var(--grey);
-  --art-color: rgb(12, 12, 13); 
+:root  {
   --font-size-base: 16px;
-
-  --dark-grey: rgb(55, 55, 55);
+  --sub-font-color: rgb(123, 123, 123);
+  --dark-grey: rgb(40, 40, 40);
   --white: white;
   --grey: rgb(235, 235, 235);
-  --green: rgb(57, 192, 63);
-  --light-green: rgb(68, 205, 75);
+
+  --font-color: var(--dark-grey);
+  --background-color: var(--grey);
+}
+
+:root[data-theme="dark"] {
+  --font-color: var(--white);
+  --background-color: var(--dark-grey);
 }
 
 * {
@@ -42,11 +44,11 @@ html {
   font-family: regularFont;
   font-size: var(--font-size-base);
   letter-spacing: 2px;
+  background-color: var(--background-color);
   color: var(--font-color);
 }
 
 body {
-  background-color: var(--background-color);
   overflow-x: hidden;
 }
 
@@ -88,12 +90,5 @@ button {
 }
 
 .section {
-  padding: 50px 10px 100px 10px;
-}
-
-.sectionHeader {
-  display: flex;
-  flex-direction: column;
-  gap: 50px;
-  margin-bottom: 50px;
+  padding: 50px 120px 100px 120px;
 }

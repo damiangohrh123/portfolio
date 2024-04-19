@@ -9,14 +9,12 @@
 
 .circle {
   position: fixed;
-  width: 200px;
-  height: 200px;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 
-  background-color: var(--grey);
   border-radius: 1000px;
+  border: solid var(--font-color) 1px;
 }
 
 .startingText {

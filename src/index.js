@@ -30,6 +30,16 @@ window.addEventListener('scroll', () => {
   handleProjects(currentScroll);
 });
 
+// Handle dark mode toggle
+const darkModeCheckbox = document.getElementById("darkModeCheckbox");
+darkModeCheckbox.addEventListener("change", () => {
+  if (darkModeCheckbox.checked) {
+    document.documentElement.setAttribute("data-theme", "dark");
+  } else {
+    document.documentElement.setAttribute("data-theme", "light");
+  }
+});
+
 // Handle button clicks
 const prevBtn = document.querySelector(".prev");
 const nextBtn = document.querySelector(".next");

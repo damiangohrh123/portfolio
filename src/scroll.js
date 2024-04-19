@@ -56,13 +56,11 @@ function handleBackground(currentScroll) {
   circle.style.width = newCircleSize + 'px';
   circle.style.height = newCircleSize + 'px';
   
-  // Change background color after circle has expanded to fill screen
+  // Hide circle and scroll text
   if (currentScroll > bottomStarting) {
-    document.documentElement.style.setProperty("--background-color", "var(--grey)");
     circle.style.display = "none";
     startingText.classList.add("hidden");
   } else {
-    document.documentElement.style.setProperty("--background-color", "var(--white)");
     circle.style.display = "block";
     startingText.classList.remove("hidden");
   }

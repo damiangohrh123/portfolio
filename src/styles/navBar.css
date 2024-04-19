@@ -23,6 +23,43 @@
   color: var(--font-color);
 }
 
+.darkModeToggle {
+  position: relative;
+  width: 60px;
+  height: 30px;
+}
+
+.darkModeToggle input {
+  display: none;
+}
+
+.darkModeToggle label {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(69, 69, 69);
+  border-radius: 15px;
+  cursor: pointer;
+  position: relative;
+}
+
+.darkModeToggle .knob {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 20px;
+  height: 20px;
+  margin: 0 10px 0 10px;
+  
+  background-color: var(--background-color);
+  border-radius: 100%;
+  transition: transform 0.3s;
+}
+
+.darkModeToggle input:checked + label .knob {
+  transform: translateX(20px) translateY(-50%);
+}
+
 @keyframes hide {
   0% {
     transform: translateY(0);
