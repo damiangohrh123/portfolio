@@ -1,37 +1,37 @@
 .img1 {
-  background-image: url("../images/angel.png");
+  background-image: url("../images/angel.webp");
 }
 
 .img2 {
-  background-image: url("../images/contrast.png");
+  background-image: url("../images/contrast.webp");
 }
 
 .img3 {
-  background-image: url("../images/eren2.png");
+  background-image: url("../images/eren2.webp");
 }
 
 .img4 {
-  background-image: url("../images/evangelion.png");
+  background-image: url("../images/evangelion.webp");
 }
 
 .img5 {
-  background-image: url("../images/hsr.png");
+  background-image: url("../images/hsr.webp");
 }
 
 .img6 {
-  background-image: url("../images/mhw.png");
+  background-image: url("../images/mhw.webp");
 }
 
 .img7 {
-  background-image: url("../images/ramen.png");
+  background-image: url("../images/ramen.webp");
 }
 
 .img8 {
-  background-image: url("../images/solitude.png");
+  background-image: url("../images/solitude.webp");
 }
 
 .img9 {
-  background-image: url("../images/titans.png");
+  background-image: url("../images/titans.webp");
 }
 
 .artSection {
@@ -50,6 +50,10 @@
   width: 40px;
   border: none;
   background-color: transparent;
+}
+
+.prev:hover, .next:hover {
+  cursor: pointer;
 }
 
 .imageControl {

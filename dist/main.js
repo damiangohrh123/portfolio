@@ -66,7 +66,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \******************************************************************/
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/getUrl.js */ \"./node_modules/css-loader/dist/runtime/getUrl.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__);\n// Imports\n\n\n\nvar ___CSS_LOADER_URL_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(/*! ../images/angel.png */ \"./src/images/angel.png\"), __webpack_require__.b);\nvar ___CSS_LOADER_URL_IMPORT_1___ = new URL(/* asset import */ __webpack_require__(/*! ../images/contrast.png */ \"./src/images/contrast.png\"), __webpack_require__.b);\nvar ___CSS_LOADER_URL_IMPORT_2___ = new URL(/* asset import */ __webpack_require__(/*! ../images/eren2.png */ \"./src/images/eren2.png\"), __webpack_require__.b);\nvar ___CSS_LOADER_URL_IMPORT_3___ = new URL(/* asset import */ __webpack_require__(/*! ../images/evangelion.png */ \"./src/images/evangelion.png\"), __webpack_require__.b);\nvar ___CSS_LOADER_URL_IMPORT_4___ = new URL(/* asset import */ __webpack_require__(/*! ../images/hsr.png */ \"./src/images/hsr.png\"), __webpack_require__.b);\nvar ___CSS_LOADER_URL_IMPORT_5___ = new URL(/* asset import */ __webpack_require__(/*! ../images/mhw.png */ \"./src/images/mhw.png\"), __webpack_require__.b);\nvar ___CSS_LOADER_URL_IMPORT_6___ = new URL(/* asset import */ __webpack_require__(/*! ../images/ramen.png */ \"./src/images/ramen.png\"), __webpack_require__.b);\nvar ___CSS_LOADER_URL_IMPORT_7___ = new URL(/* asset import */ __webpack_require__(/*! ../images/solitude.png */ \"./src/images/solitude.png\"), __webpack_require__.b);\nvar ___CSS_LOADER_URL_IMPORT_8___ = new URL(/* asset import */ __webpack_require__(/*! ../images/titans.png */ \"./src/images/titans.png\"), __webpack_require__.b);\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\nvar ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_0___);\nvar ___CSS_LOADER_URL_REPLACEMENT_1___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_1___);\nvar ___CSS_LOADER_URL_REPLACEMENT_2___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_2___);\nvar ___CSS_LOADER_URL_REPLACEMENT_3___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_3___);\nvar ___CSS_LOADER_URL_REPLACEMENT_4___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_4___);\nvar ___CSS_LOADER_URL_REPLACEMENT_5___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_5___);\nvar ___CSS_LOADER_URL_REPLACEMENT_6___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_6___);\nvar ___CSS_LOADER_URL_REPLACEMENT_7___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_7___);\nvar ___CSS_LOADER_URL_REPLACEMENT_8___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_8___);\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, `.img1 {\n  background-image: url(${___CSS_LOADER_URL_REPLACEMENT_0___});\n}\n\n.img2 {\n  background-image: url(${___CSS_LOADER_URL_REPLACEMENT_1___});\n}\n\n.img3 {\n  background-image: url(${___CSS_LOADER_URL_REPLACEMENT_2___});\n}\n\n.img4 {\n  background-image: url(${___CSS_LOADER_URL_REPLACEMENT_3___});\n}\n\n.img5 {\n  background-image: url(${___CSS_LOADER_URL_REPLACEMENT_4___});\n}\n\n.img6 {\n  background-image: url(${___CSS_LOADER_URL_REPLACEMENT_5___});\n}\n\n.img7 {\n  background-image: url(${___CSS_LOADER_URL_REPLACEMENT_6___});\n}\n\n.img8 {\n  background-image: url(${___CSS_LOADER_URL_REPLACEMENT_7___});\n}\n\n.img9 {\n  background-image: url(${___CSS_LOADER_URL_REPLACEMENT_8___});\n}\n\n.artSection {\n  padding-bottom: 500px;\n}\n\n.slideshowContainer {\n  width: 100%;\n  aspect-ratio: 16 / 9;\n  position: relative;\n  overflow-x: hidden;\n}\n\n.prev, .next {\n  height: 40px;\n  width: 40px;\n  border: none;\n  background-color: transparent;\n}\n\n.imageControl {\n  position: absolute;\n  bottom: 10px;\n  left: 50%;\n  transform: translateX(-50%);\n  z-index: 2;\n}\n\n.frame {\n  width: 100%;\n  aspect-ratio: 16 / 9;\n  position: absolute;\n  z-index: 1;\n  border-radius: 15px;\n  box-shadow: 0 0 0 20px var(--background-color);\n}\n\n.slide {\n  width: 100%;\n  height: 100%;\n  position: absolute;\n  \n  background-size: cover;\n  background-repeat: no-repeat;\n  background-position: center;\n}\n\n/* Animation for slide-in effect */\n@keyframes slideInLeft {\n  0% {\n    transform: translateX(-100%);\n  }\n  100% {\n    transform: translateX(0);\n  }\n}\n\n@keyframes slideInRight {\n  0% {\n    transform: translateX(100%);\n  }\n  100% {\n    transform: translateX(0);\n  }\n}\n\n@keyframes slideOutLeft {\n  0% {\n    transform: translateX(0);\n  }\n  100% {\n    transform: translateX(100%);\n  }\n}\n\n@keyframes slideOutRight {\n  0% {\n    transform: translateX(0);\n  }\n  100% {\n    transform: translateX(-100%);\n  }\n}\n\n.slide.slide-in-left {\n  animation: slideInLeft 500ms forwards;\n}\n\n.slide.slide-in-right {\n  animation: slideInRight 500ms forwards;\n}\n\n.slide.slide-out-left {\n  animation: slideOutLeft 500ms forwards;\n}\n\n.slide.slide-out-right {\n  animation: slideOutRight 500ms forwards;\n}\n\n/* Media query for smaller screens (up to 768px) */\n@media (max-width: 768px) {\n  .artSection {\n    padding-bottom: 300px;\n  }\n}\n\n/* Media query for mobile devices (up to 480px) */\n@media (max-width: 480px) {\n  .artSection {\n    padding-bottom: 200px;\n  }\n\n  .frame {\n    width: 100%;\n    aspect-ratio: 16 / 11;\n  }\n\n  .slideshowContainer {\n    width: 100%;\n    aspect-ratio: 16 / 11;\n  }\n}`, \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://newprojectskeleton/./src/styles/art.css?./node_modules/css-loader/dist/cjs.js");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/getUrl.js */ \"./node_modules/css-loader/dist/runtime/getUrl.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__);\n// Imports\n\n\n\nvar ___CSS_LOADER_URL_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(/*! ../images/angel.webp */ \"./src/images/angel.webp\"), __webpack_require__.b);\nvar ___CSS_LOADER_URL_IMPORT_1___ = new URL(/* asset import */ __webpack_require__(/*! ../images/contrast.webp */ \"./src/images/contrast.webp\"), __webpack_require__.b);\nvar ___CSS_LOADER_URL_IMPORT_2___ = new URL(/* asset import */ __webpack_require__(/*! ../images/eren2.webp */ \"./src/images/eren2.webp\"), __webpack_require__.b);\nvar ___CSS_LOADER_URL_IMPORT_3___ = new URL(/* asset import */ __webpack_require__(/*! ../images/evangelion.webp */ \"./src/images/evangelion.webp\"), __webpack_require__.b);\nvar ___CSS_LOADER_URL_IMPORT_4___ = new URL(/* asset import */ __webpack_require__(/*! ../images/hsr.webp */ \"./src/images/hsr.webp\"), __webpack_require__.b);\nvar ___CSS_LOADER_URL_IMPORT_5___ = new URL(/* asset import */ __webpack_require__(/*! ../images/mhw.webp */ \"./src/images/mhw.webp\"), __webpack_require__.b);\nvar ___CSS_LOADER_URL_IMPORT_6___ = new URL(/* asset import */ __webpack_require__(/*! ../images/ramen.webp */ \"./src/images/ramen.webp\"), __webpack_require__.b);\nvar ___CSS_LOADER_URL_IMPORT_7___ = new URL(/* asset import */ __webpack_require__(/*! ../images/solitude.webp */ \"./src/images/solitude.webp\"), __webpack_require__.b);\nvar ___CSS_LOADER_URL_IMPORT_8___ = new URL(/* asset import */ __webpack_require__(/*! ../images/titans.webp */ \"./src/images/titans.webp\"), __webpack_require__.b);\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\nvar ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_0___);\nvar ___CSS_LOADER_URL_REPLACEMENT_1___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_1___);\nvar ___CSS_LOADER_URL_REPLACEMENT_2___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_2___);\nvar ___CSS_LOADER_URL_REPLACEMENT_3___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_3___);\nvar ___CSS_LOADER_URL_REPLACEMENT_4___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_4___);\nvar ___CSS_LOADER_URL_REPLACEMENT_5___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_5___);\nvar ___CSS_LOADER_URL_REPLACEMENT_6___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_6___);\nvar ___CSS_LOADER_URL_REPLACEMENT_7___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_7___);\nvar ___CSS_LOADER_URL_REPLACEMENT_8___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_8___);\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, `.img1 {\n  background-image: url(${___CSS_LOADER_URL_REPLACEMENT_0___});\n}\n\n.img2 {\n  background-image: url(${___CSS_LOADER_URL_REPLACEMENT_1___});\n}\n\n.img3 {\n  background-image: url(${___CSS_LOADER_URL_REPLACEMENT_2___});\n}\n\n.img4 {\n  background-image: url(${___CSS_LOADER_URL_REPLACEMENT_3___});\n}\n\n.img5 {\n  background-image: url(${___CSS_LOADER_URL_REPLACEMENT_4___});\n}\n\n.img6 {\n  background-image: url(${___CSS_LOADER_URL_REPLACEMENT_5___});\n}\n\n.img7 {\n  background-image: url(${___CSS_LOADER_URL_REPLACEMENT_6___});\n}\n\n.img8 {\n  background-image: url(${___CSS_LOADER_URL_REPLACEMENT_7___});\n}\n\n.img9 {\n  background-image: url(${___CSS_LOADER_URL_REPLACEMENT_8___});\n}\n\n.artSection {\n  padding-bottom: 500px;\n}\n\n.slideshowContainer {\n  width: 100%;\n  aspect-ratio: 16 / 9;\n  position: relative;\n  overflow-x: hidden;\n}\n\n.prev, .next {\n  height: 40px;\n  width: 40px;\n  border: none;\n  background-color: transparent;\n}\n\n.prev:hover, .next:hover {\n  cursor: pointer;\n}\n\n.imageControl {\n  position: absolute;\n  bottom: 10px;\n  left: 50%;\n  transform: translateX(-50%);\n  z-index: 2;\n}\n\n.frame {\n  width: 100%;\n  aspect-ratio: 16 / 9;\n  position: absolute;\n  z-index: 1;\n  border-radius: 15px;\n  box-shadow: 0 0 0 20px var(--background-color);\n}\n\n.slide {\n  width: 100%;\n  height: 100%;\n  position: absolute;\n  \n  background-size: cover;\n  background-repeat: no-repeat;\n  background-position: center;\n}\n\n/* Animation for slide-in effect */\n@keyframes slideInLeft {\n  0% {\n    transform: translateX(-100%);\n  }\n  100% {\n    transform: translateX(0);\n  }\n}\n\n@keyframes slideInRight {\n  0% {\n    transform: translateX(100%);\n  }\n  100% {\n    transform: translateX(0);\n  }\n}\n\n@keyframes slideOutLeft {\n  0% {\n    transform: translateX(0);\n  }\n  100% {\n    transform: translateX(100%);\n  }\n}\n\n@keyframes slideOutRight {\n  0% {\n    transform: translateX(0);\n  }\n  100% {\n    transform: translateX(-100%);\n  }\n}\n\n.slide.slide-in-left {\n  animation: slideInLeft 500ms forwards;\n}\n\n.slide.slide-in-right {\n  animation: slideInRight 500ms forwards;\n}\n\n.slide.slide-out-left {\n  animation: slideOutLeft 500ms forwards;\n}\n\n.slide.slide-out-right {\n  animation: slideOutRight 500ms forwards;\n}\n\n/* Media query for smaller screens (up to 768px) */\n@media (max-width: 768px) {\n  .artSection {\n    padding-bottom: 300px;\n  }\n}\n\n/* Media query for mobile devices (up to 480px) */\n@media (max-width: 480px) {\n  .artSection {\n    padding-bottom: 200px;\n  }\n\n  .frame {\n    width: 100%;\n    aspect-ratio: 16 / 11;\n  }\n\n  .slideshowContainer {\n    width: 100%;\n    aspect-ratio: 16 / 11;\n  }\n}`, \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://newprojectskeleton/./src/styles/art.css?./node_modules/css-loader/dist/cjs.js");
 
 /***/ }),
 
@@ -76,7 +76,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \***************************************************************************/
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/getUrl.js */ \"./node_modules/css-loader/dist/runtime/getUrl.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__);\n// Imports\n\n\n\nvar ___CSS_LOADER_URL_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(/*! ../images/banner.png */ \"./src/images/banner.png\"), __webpack_require__.b);\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\nvar ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_0___);\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, `.introductionSection {\n  width: 100%;\n  aspect-ratio: 16 / 8; \n  display: flex;\n  justify-content: space-between;\n  gap: 50px;\n}\n\n.banner {\n  width: 100%;\n  aspect-ratio: 16 / 8; \n  background-color: rgb(68, 152, 231);\n  background-size: cover;\n  background-repeat: no-repeat;\n  background-position: center;\n  background-image: url(${___CSS_LOADER_URL_REPLACEMENT_0___});\n  border-radius: 15px;\n}`, \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://newprojectskeleton/./src/styles/introduction.css?./node_modules/css-loader/dist/cjs.js");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/getUrl.js */ \"./node_modules/css-loader/dist/runtime/getUrl.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__);\n// Imports\n\n\n\nvar ___CSS_LOADER_URL_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(/*! ../images/banner.webp */ \"./src/images/banner.webp\"), __webpack_require__.b);\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\nvar ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_0___);\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, `.introductionSection {\n  width: 100%;\n  aspect-ratio: 16 / 8; \n  display: flex;\n  justify-content: space-between;\n  gap: 50px;\n}\n\n.banner {\n  width: 100%;\n  aspect-ratio: 16 / 8; \n  background-color: rgb(68, 152, 231);\n  background-size: cover;\n  background-repeat: no-repeat;\n  background-position: center;\n  background-image: url(${___CSS_LOADER_URL_REPLACEMENT_0___});\n  border-radius: 15px;\n}`, \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://newprojectskeleton/./src/styles/introduction.css?./node_modules/css-loader/dist/cjs.js");
 
 /***/ }),
 
@@ -96,7 +96,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \***********************************************************************/
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n// Imports\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, `.projectSection {\n  display: flex;\n  flex-direction: column;\n}\n\n.projectsGrid {\n  display: grid;\n  grid-template-columns: repeat(auto-fill, minmax(45%, 1fr));\n  grid-auto-rows: auto;\n  gap: 20px;\n}\n\n.gridCellContainer {\n  width: 100%;\n  height: 100%;\n  padding-bottom: calc(0.2 * 100%);\n  overflow: hidden;\n\n  display: flex;\n  flex-direction: column;\n  justify-content: space-between;\n  gap: 20px;\n\n  border-radius: 10px;\n\n  transition: transform 0.5s;\n}\n\n.gridText > p {\n  color: var(--sub-font-color);\n}\n\n.gridImgContainer {\n  width: 100%;\n  height: 100%;\n\n  border-radius: 10px;\n  transition: background-size 0.3s ease;\n  overflow: hidden;\n}\n\n.gridImg {\n  width: 100%;\n  height: 100%;\n  object-fit: cover;\n  transition: transform 0.2s;\n}\n\n/* ANIMATION */\n.leftGrid {\n  transform: translateX(-150%);\n}\n\n.rightGrid {\n  transform: translateX(150%);\n}\n\n.slide-in-left {\n  transform: translateX(0);\n}\n\n.slide-in-right {\n  transform: translateX(0);\n}\n\n@media (max-width: 1200px) {\n  .projectsGrid {\n    grid-template-columns: repeat(auto-fill, minmax(45%, 1fr));\n    grid-auto-rows: auto;\n    gap: 20px;\n  }\n}\n\n/* Media query for smaller screens (up to 768px) */\n@media (max-width: 768px) {\n  .projectsGrid {\n    display: flex;\n    flex-direction: column;\n  }\n\n  .gridCellContainer {\n    height: 500px;\n    padding-bottom: calc(0.1 * 100%);\n  }\n}\n\n/* Media query for mobile devices (up to 480px) */\n@media (max-width: 480px) {\n  .gridCellContainer {\n    height: 280px;\n    padding-bottom: calc(0.05 * 100%);\n    gap: 5px;\n  }\n}`, \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://newprojectskeleton/./src/styles/projects.css?./node_modules/css-loader/dist/cjs.js");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/getUrl.js */ \"./node_modules/css-loader/dist/runtime/getUrl.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__);\n// Imports\n\n\n\nvar ___CSS_LOADER_URL_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(/*! ../images/weather.webp */ \"./src/images/weather.webp\"), __webpack_require__.b);\nvar ___CSS_LOADER_URL_IMPORT_1___ = new URL(/* asset import */ __webpack_require__(/*! ../images/ottoDecks.webp */ \"./src/images/ottoDecks.webp\"), __webpack_require__.b);\nvar ___CSS_LOADER_URL_IMPORT_2___ = new URL(/* asset import */ __webpack_require__(/*! ../images/snooker.webp */ \"./src/images/snooker.webp\"), __webpack_require__.b);\nvar ___CSS_LOADER_URL_IMPORT_3___ = new URL(/* asset import */ __webpack_require__(/*! ../images/knight.webp */ \"./src/images/knight.webp\"), __webpack_require__.b);\nvar ___CSS_LOADER_URL_IMPORT_4___ = new URL(/* asset import */ __webpack_require__(/*! ../images/merkel.webp */ \"./src/images/merkel.webp\"), __webpack_require__.b);\nvar ___CSS_LOADER_URL_IMPORT_5___ = new URL(/* asset import */ __webpack_require__(/*! ../images/penguin.webp */ \"./src/images/penguin.webp\"), __webpack_require__.b);\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\nvar ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_0___);\nvar ___CSS_LOADER_URL_REPLACEMENT_1___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_1___);\nvar ___CSS_LOADER_URL_REPLACEMENT_2___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_2___);\nvar ___CSS_LOADER_URL_REPLACEMENT_3___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_3___);\nvar ___CSS_LOADER_URL_REPLACEMENT_4___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_4___);\nvar ___CSS_LOADER_URL_REPLACEMENT_5___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_5___);\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, `.weatherImg {\n  background-image: url(${___CSS_LOADER_URL_REPLACEMENT_0___});\n}\n\n.ottoDecksImg {\n  background-image: url(${___CSS_LOADER_URL_REPLACEMENT_1___});\n}\n\n.snookerImg {\n  background-image: url(${___CSS_LOADER_URL_REPLACEMENT_2___});\n}\n\n.knightImg {\n  background-image: url(${___CSS_LOADER_URL_REPLACEMENT_3___});\n}\n\n.merkelImg {\n  background-image: url(${___CSS_LOADER_URL_REPLACEMENT_4___});\n}\n\n.penguinImg {\n  background-image: url(${___CSS_LOADER_URL_REPLACEMENT_5___});\n}\n\n.projectSection {\n  display: flex;\n  flex-direction: column;\n}\n\n.projectsGrid {\n  display: grid;\n  grid-template-columns: repeat(auto-fill, minmax(45%, 1fr));\n  grid-auto-rows: auto;\n  row-gap: 100px;\n  column-gap: 20px;\n}\n\n.gridCellContainer {\n  width: 100%;\n  height: 100%;\n  overflow: hidden;\n\n  display: flex;\n  flex-direction: column;\n  gap: 20px;\n\n  transition: transform 0.5s;\n}\n\n.gridText > p {\n  color: var(--sub-font-color);\n}\n\n.gridImgContainer {\n  width: 100%;\n  aspect-ratio: 16 / 8; \n\n  border-radius: 10px;\n  transition: background-size 0.3s ease;\n  overflow: hidden;\n}\n\n.gridImg {\n  width: 100%;\n  height: 100%;\n  background-size: cover;\n  transition: transform 0.2s;\n}\n\n/* ANIMATION */\n.leftGrid {\n  transform: translateX(-150%);\n}\n\n.rightGrid {\n  transform: translateX(150%);\n}\n\n.slide-in-left {\n  transform: translateX(0);\n}\n\n.slide-in-right {\n  transform: translateX(0);\n}\n\n/* Media query for smaller screens (up to 768px) */\n@media (max-width: 768px) {\n  .projectsGrid {\n    display: flex;\n    flex-direction: column;\n    gap: 50px;\n  }\n}\n\n/* Media query for mobile devices (up to 480px) */\n@media (max-width: 480px) {\n\n}`, \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://newprojectskeleton/./src/styles/projects.css?./node_modules/css-loader/dist/cjs.js");
 
 /***/ }),
 
@@ -136,7 +136,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \*********************************************************************/
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/getUrl.js */ \"./node_modules/css-loader/dist/runtime/getUrl.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__);\n// Imports\n\n\n\nvar ___CSS_LOADER_URL_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(/*! ../fonts/Lato-Light.woff */ \"./src/fonts/Lato-Light.woff\"), __webpack_require__.b);\nvar ___CSS_LOADER_URL_IMPORT_1___ = new URL(/* asset import */ __webpack_require__(/*! ../fonts/Lato-Regular.woff */ \"./src/fonts/Lato-Regular.woff\"), __webpack_require__.b);\nvar ___CSS_LOADER_URL_IMPORT_2___ = new URL(/* asset import */ __webpack_require__(/*! ../fonts/Lato-Bold.woff */ \"./src/fonts/Lato-Bold.woff\"), __webpack_require__.b);\nvar ___CSS_LOADER_URL_IMPORT_3___ = new URL(/* asset import */ __webpack_require__(/*! ../fonts/Oswald-Bold.ttf */ \"./src/fonts/Oswald-Bold.ttf\"), __webpack_require__.b);\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\nvar ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_0___);\nvar ___CSS_LOADER_URL_REPLACEMENT_1___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_1___);\nvar ___CSS_LOADER_URL_REPLACEMENT_2___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_2___);\nvar ___CSS_LOADER_URL_REPLACEMENT_3___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_3___);\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, `@font-face {\n  font-family: lightFont;\n  src: url(${___CSS_LOADER_URL_REPLACEMENT_0___}) format(\"truetype\");\n}\n\n@font-face {\n  font-family: regularFont;\n  src: url(${___CSS_LOADER_URL_REPLACEMENT_1___}) format(\"truetype\"); \n}\n\n@font-face {\n  font-family: boldFont;\n  src: url(${___CSS_LOADER_URL_REPLACEMENT_2___}) format(\"truetype\");\n}\n\n@font-face {\n  font-family: bigBoldFont; \n  src: url(${___CSS_LOADER_URL_REPLACEMENT_3___}) format(\"truetype\");\n}\n\n:root  {\n  --sub-font-color: rgb(123, 123, 123);\n  --dark-grey: rgb(40, 40, 40);\n  --white: white;\n  --grey: rgb(235, 235, 235);\n\n  --font-color: var(--dark-grey);\n  --background-color: var(--grey);\n  --socials-color: var(--white);\n}\n\n:root[data-theme=\"dark\"] {\n  --font-color: var(--white);\n  --background-color: var(--dark-grey);\n  --socials-color: var(--sub-font-color);\n}\n\n* {\n  box-sizing: border-box;\n  padding: 0;\n  margin: 0;\n}\n\nhtml {\n  font-family: regularFont;\n  letter-spacing: 2px;\n  background-color: var(--background-color);\n  color: var(--font-color);\n\n  transition: background-color 0.3s ease, color 0.3s ease;\n}\n\n.content {\n  overflow-x: hidden;\n}\n\nbody {\n  overflow-x: hidden;\n}\n\nh6 {\n  font-family: lightFont;\n  font-size: 1rem;\n}\n\nh5 {\n  font-family: lightFont;\n  font-size: 2rem;\n}\n\nh4 {\n  font-family: lightFont;\n  font-size: 3rem;\n}\n\na {\n  text-decoration: none;\n}\n\na:visited {\n  color: var(--font-color);\n}\n\n.content {\n  display: flex;\n  flex-direction: column;\n\n  width: 100%;\n}\n\n.section {\n  padding: 50px 120px 100px 120px;\n}\n\n.sectionText {\n  text-align: center;\n  padding: 200px 0 500px 0;\n}\n\n@media (max-width: 1200px) {\n  html {\n    font-size: 12px;\n  }\n\n  .section {\n    padding: 50px 70px 100px 70px;\n  }\n\n  .sectionText {\n    padding: 200px 0 400px 0;\n  }\n}\n\n/* Media query for smaller screens (up to 768px) */\n@media (max-width: 768px) {\n  html {\n    font-size: 8px;\n  }\n\n  .section {\n    padding: 50px 30px 100px 30px;\n  }\n\n  .sectionText {\n    padding: 100px 0 200px 0;\n  }\n}\n\n/* Media query for mobile devices (up to 480px) */\n@media (max-width: 480px) {\n  html {\n    font-size: 6px;\n  }\n\n  .section {\n    padding: 50px 10px 100px 10px;\n  }\n}\n`, \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://newprojectskeleton/./src/styles/styles.css?./node_modules/css-loader/dist/cjs.js");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/getUrl.js */ \"./node_modules/css-loader/dist/runtime/getUrl.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__);\n// Imports\n\n\n\nvar ___CSS_LOADER_URL_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(/*! ../fonts/Lato-Light.woff */ \"./src/fonts/Lato-Light.woff\"), __webpack_require__.b);\nvar ___CSS_LOADER_URL_IMPORT_1___ = new URL(/* asset import */ __webpack_require__(/*! ../fonts/Lato-Regular.woff */ \"./src/fonts/Lato-Regular.woff\"), __webpack_require__.b);\nvar ___CSS_LOADER_URL_IMPORT_2___ = new URL(/* asset import */ __webpack_require__(/*! ../fonts/Lato-Bold.woff */ \"./src/fonts/Lato-Bold.woff\"), __webpack_require__.b);\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\nvar ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_0___);\nvar ___CSS_LOADER_URL_REPLACEMENT_1___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_1___);\nvar ___CSS_LOADER_URL_REPLACEMENT_2___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_2___);\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, `@font-face {\n  font-family: lightFont;\n  src: url(${___CSS_LOADER_URL_REPLACEMENT_0___}) format(\"truetype\");\n}\n\n@font-face {\n  font-family: regularFont;\n  src: url(${___CSS_LOADER_URL_REPLACEMENT_1___}) format(\"truetype\"); \n}\n\n@font-face {\n  font-family: boldFont;\n  src: url(${___CSS_LOADER_URL_REPLACEMENT_2___}) format(\"truetype\");\n}\n\n:root  {\n  --sub-font-color: rgb(123, 123, 123);\n  --dark-grey: rgb(40, 40, 40);\n  --white: white;\n  --grey: rgb(235, 235, 235);\n\n  --font-color: var(--dark-grey);\n  --background-color: var(--grey);\n  --socials-color: var(--white);\n}\n\n:root[data-theme=\"dark\"] {\n  --font-color: var(--white);\n  --background-color: var(--dark-grey);\n  --socials-color: var(--sub-font-color);\n}\n\n* {\n  box-sizing: border-box;\n  padding: 0;\n  margin: 0;\n}\n\nhtml {\n  font-family: regularFont;\n  letter-spacing: 2px;\n  background-color: var(--background-color);\n  color: var(--font-color);\n\n  transition: background-color 0.3s ease, color 0.3s ease;\n}\n\n.content {\n  overflow-x: hidden;\n}\n\nbody {\n  overflow-x: hidden;\n}\n\nh6 {\n  font-family: lightFont;\n  font-size: 1rem;\n}\n\nh5 {\n  font-family: lightFont;\n  font-size: 2rem;\n}\n\nh4 {\n  font-family: lightFont;\n  font-size: 3rem;\n}\n\na {\n  text-decoration: none;\n}\n\na:visited {\n  color: var(--font-color);\n}\n\n.content {\n  display: flex;\n  flex-direction: column;\n\n  width: 100%;\n}\n\n.section {\n  padding: 50px 120px 100px 120px;\n}\n\n.sectionText {\n  text-align: center;\n  padding: 200px 0 500px 0;\n}\n\n@media (max-width: 1200px) {\n  html {\n    font-size: 12px;\n  }\n\n  .section {\n    padding: 50px 70px 100px 70px;\n  }\n\n  .sectionText {\n    padding: 200px 0 400px 0;\n  }\n}\n\n/* Media query for smaller screens (up to 768px) */\n@media (max-width: 768px) {\n  html {\n    font-size: 8px;\n  }\n\n  .section {\n    padding: 50px 30px 100px 30px;\n  }\n\n  .sectionText {\n    padding: 100px 0 200px 0;\n  }\n}\n\n/* Media query for mobile devices (up to 480px) */\n@media (max-width: 480px) {\n  html {\n    font-size: 6px;\n  }\n\n  .section {\n    padding: 50px 10px 100px 10px;\n  }\n}\n`, \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://newprojectskeleton/./src/styles/styles.css?./node_modules/css-loader/dist/cjs.js");
 
 /***/ }),
 
@@ -350,113 +350,163 @@ eval("module.exports = __webpack_require__.p + \"2fc7f4d10ffe3f2e9713.woff\";\n\
 
 /***/ }),
 
-/***/ "./src/fonts/Oswald-Bold.ttf":
-/*!***********************************!*\
-  !*** ./src/fonts/Oswald-Bold.ttf ***!
-  \***********************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-eval("module.exports = __webpack_require__.p + \"273565aaff9dc457f07e.ttf\";\n\n//# sourceURL=webpack://newprojectskeleton/./src/fonts/Oswald-Bold.ttf?");
-
-/***/ }),
-
-/***/ "./src/images/angel.png":
-/*!******************************!*\
-  !*** ./src/images/angel.png ***!
-  \******************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-eval("module.exports = __webpack_require__.p + \"9b7e4f6f92920941a50d.png\";\n\n//# sourceURL=webpack://newprojectskeleton/./src/images/angel.png?");
-
-/***/ }),
-
-/***/ "./src/images/banner.png":
+/***/ "./src/images/angel.webp":
 /*!*******************************!*\
-  !*** ./src/images/banner.png ***!
+  !*** ./src/images/angel.webp ***!
   \*******************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"381da84d730302db86e5.png\";\n\n//# sourceURL=webpack://newprojectskeleton/./src/images/banner.png?");
+eval("module.exports = __webpack_require__.p + \"5e5aeb3d32734a3a517f.webp\";\n\n//# sourceURL=webpack://newprojectskeleton/./src/images/angel.webp?");
 
 /***/ }),
 
-/***/ "./src/images/contrast.png":
-/*!*********************************!*\
-  !*** ./src/images/contrast.png ***!
-  \*********************************/
+/***/ "./src/images/banner.webp":
+/*!********************************!*\
+  !*** ./src/images/banner.webp ***!
+  \********************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"6b1d431e91a695666290.png\";\n\n//# sourceURL=webpack://newprojectskeleton/./src/images/contrast.png?");
+eval("module.exports = __webpack_require__.p + \"ce8e1f672f17d367989c.webp\";\n\n//# sourceURL=webpack://newprojectskeleton/./src/images/banner.webp?");
 
 /***/ }),
 
-/***/ "./src/images/eren2.png":
-/*!******************************!*\
-  !*** ./src/images/eren2.png ***!
-  \******************************/
+/***/ "./src/images/contrast.webp":
+/*!**********************************!*\
+  !*** ./src/images/contrast.webp ***!
+  \**********************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"5092c54386eb0c917f3e.png\";\n\n//# sourceURL=webpack://newprojectskeleton/./src/images/eren2.png?");
+eval("module.exports = __webpack_require__.p + \"52630b13c26c81b29293.webp\";\n\n//# sourceURL=webpack://newprojectskeleton/./src/images/contrast.webp?");
 
 /***/ }),
 
-/***/ "./src/images/evangelion.png":
-/*!***********************************!*\
-  !*** ./src/images/evangelion.png ***!
-  \***********************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-eval("module.exports = __webpack_require__.p + \"f846c646bc151087cd2d.png\";\n\n//# sourceURL=webpack://newprojectskeleton/./src/images/evangelion.png?");
-
-/***/ }),
-
-/***/ "./src/images/hsr.png":
-/*!****************************!*\
-  !*** ./src/images/hsr.png ***!
-  \****************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-eval("module.exports = __webpack_require__.p + \"a845407c9d7b74b2e7ff.png\";\n\n//# sourceURL=webpack://newprojectskeleton/./src/images/hsr.png?");
-
-/***/ }),
-
-/***/ "./src/images/mhw.png":
-/*!****************************!*\
-  !*** ./src/images/mhw.png ***!
-  \****************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-eval("module.exports = __webpack_require__.p + \"8f615a083b7f2bb5aa44.png\";\n\n//# sourceURL=webpack://newprojectskeleton/./src/images/mhw.png?");
-
-/***/ }),
-
-/***/ "./src/images/ramen.png":
-/*!******************************!*\
-  !*** ./src/images/ramen.png ***!
-  \******************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-eval("module.exports = __webpack_require__.p + \"7dc745795b329ae480bb.png\";\n\n//# sourceURL=webpack://newprojectskeleton/./src/images/ramen.png?");
-
-/***/ }),
-
-/***/ "./src/images/solitude.png":
-/*!*********************************!*\
-  !*** ./src/images/solitude.png ***!
-  \*********************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-eval("module.exports = __webpack_require__.p + \"0633de691a4a58db62ea.png\";\n\n//# sourceURL=webpack://newprojectskeleton/./src/images/solitude.png?");
-
-/***/ }),
-
-/***/ "./src/images/titans.png":
+/***/ "./src/images/eren2.webp":
 /*!*******************************!*\
-  !*** ./src/images/titans.png ***!
+  !*** ./src/images/eren2.webp ***!
   \*******************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"c8a772ca5d12bcb09226.png\";\n\n//# sourceURL=webpack://newprojectskeleton/./src/images/titans.png?");
+eval("module.exports = __webpack_require__.p + \"960041e37d2172aa2b9b.webp\";\n\n//# sourceURL=webpack://newprojectskeleton/./src/images/eren2.webp?");
+
+/***/ }),
+
+/***/ "./src/images/evangelion.webp":
+/*!************************************!*\
+  !*** ./src/images/evangelion.webp ***!
+  \************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"c8a5f46af9444b520440.webp\";\n\n//# sourceURL=webpack://newprojectskeleton/./src/images/evangelion.webp?");
+
+/***/ }),
+
+/***/ "./src/images/hsr.webp":
+/*!*****************************!*\
+  !*** ./src/images/hsr.webp ***!
+  \*****************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"0a8182b027eea9d98191.webp\";\n\n//# sourceURL=webpack://newprojectskeleton/./src/images/hsr.webp?");
+
+/***/ }),
+
+/***/ "./src/images/knight.webp":
+/*!********************************!*\
+  !*** ./src/images/knight.webp ***!
+  \********************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"8401c19b8be61be6a155.webp\";\n\n//# sourceURL=webpack://newprojectskeleton/./src/images/knight.webp?");
+
+/***/ }),
+
+/***/ "./src/images/merkel.webp":
+/*!********************************!*\
+  !*** ./src/images/merkel.webp ***!
+  \********************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"3e420f0365ce60a2fa03.webp\";\n\n//# sourceURL=webpack://newprojectskeleton/./src/images/merkel.webp?");
+
+/***/ }),
+
+/***/ "./src/images/mhw.webp":
+/*!*****************************!*\
+  !*** ./src/images/mhw.webp ***!
+  \*****************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"7ce5eba779e8768bb494.webp\";\n\n//# sourceURL=webpack://newprojectskeleton/./src/images/mhw.webp?");
+
+/***/ }),
+
+/***/ "./src/images/ottoDecks.webp":
+/*!***********************************!*\
+  !*** ./src/images/ottoDecks.webp ***!
+  \***********************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"6dd7a4dcb2040dae4c0a.webp\";\n\n//# sourceURL=webpack://newprojectskeleton/./src/images/ottoDecks.webp?");
+
+/***/ }),
+
+/***/ "./src/images/penguin.webp":
+/*!*********************************!*\
+  !*** ./src/images/penguin.webp ***!
+  \*********************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"f7461be6b9ebcad07228.webp\";\n\n//# sourceURL=webpack://newprojectskeleton/./src/images/penguin.webp?");
+
+/***/ }),
+
+/***/ "./src/images/ramen.webp":
+/*!*******************************!*\
+  !*** ./src/images/ramen.webp ***!
+  \*******************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"c5333d6d651287461e31.webp\";\n\n//# sourceURL=webpack://newprojectskeleton/./src/images/ramen.webp?");
+
+/***/ }),
+
+/***/ "./src/images/snooker.webp":
+/*!*********************************!*\
+  !*** ./src/images/snooker.webp ***!
+  \*********************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"45844c1d9d3893d9e645.webp\";\n\n//# sourceURL=webpack://newprojectskeleton/./src/images/snooker.webp?");
+
+/***/ }),
+
+/***/ "./src/images/solitude.webp":
+/*!**********************************!*\
+  !*** ./src/images/solitude.webp ***!
+  \**********************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"ff2757374eb5fc489e77.webp\";\n\n//# sourceURL=webpack://newprojectskeleton/./src/images/solitude.webp?");
+
+/***/ }),
+
+/***/ "./src/images/titans.webp":
+/*!********************************!*\
+  !*** ./src/images/titans.webp ***!
+  \********************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"c962ea05c8cd1d1dd5e1.webp\";\n\n//# sourceURL=webpack://newprojectskeleton/./src/images/titans.webp?");
+
+/***/ }),
+
+/***/ "./src/images/weather.webp":
+/*!*********************************!*\
+  !*** ./src/images/weather.webp ***!
+  \*********************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"2a040ec8ccc1f4d5e8e9.webp\";\n\n//# sourceURL=webpack://newprojectskeleton/./src/images/weather.webp?");
 
 /***/ })
 

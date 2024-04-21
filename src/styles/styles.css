@@ -13,11 +13,6 @@
   src: url("../fonts/Lato-Bold.woff") format("truetype");
 }
 
-@font-face {
-  font-family: bigBoldFont; 
-  src: url("../fonts/Oswald-Bold.ttf") format("truetype");
-}
-
 :root  {
   --sub-font-color: rgb(123, 123, 123);
   --dark-grey: rgb(40, 40, 40);
