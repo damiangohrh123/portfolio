@@ -68,5 +68,15 @@ containers.forEach(container => {
 
   container.addEventListener("mouseleave", () => {
     image.style.transform = "translate(0, 0)";
+  });
+})
+
+// Handle image preloading
+window.addEventListener("DOMContentLoaded", (event) => {
+  const images = document.querySelectorAll(".slides img");
+  images.forEach((img) => {
+    const src = img.getAttribute("src");
+    const image = new Image();
+    image.src = src;
   })
 })
