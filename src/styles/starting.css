@@ -1,6 +1,7 @@
 .starting {
   width: 100vw;
   height: 2000px;
+  padding-bottom: 200px;
   display: flex;
   flex-direction: column;
   position: relative;

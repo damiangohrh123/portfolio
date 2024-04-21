@@ -3,9 +3,11 @@
   display: flex;
   justify-content: space-between;
 
-  background-color: var(--white);
+  background-color:   var(--socials-color);
   border-radius: 20px;
   margin: 20px;
+
+  transition: background-color 0.3s ease;
 }
 
 .instagramBtn, .youtubeBtn, .gitHubBtn {
@@ -43,4 +45,24 @@
 
 .youtubeBtn:hover {
   fill: rgb(231, 43, 43);
+}
+
+@media (max-width: 1200px) {
+  .socials {
+    padding: 100px 200px 100px 200px;
+  }
+}
+
+/* Media query for smaller screens (up to 768px) */
+@media (max-width: 768px) {
+  .socials {
+    padding: 100px;
+  }
+}
+
+/* Media query for mobile devices (up to 480px) */
+@media (max-width: 480px) {
+  .socials {
+    padding: 50px 20px;
+  }
 }

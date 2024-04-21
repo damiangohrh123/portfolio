@@ -1,7 +1,39 @@
-.aboutMeSection {
-  padding: 500px 0;
+/* Circle orbit animation */
+.wrapper {
+  position: relative;
 }
 
-.aboutMeText > h5{
-  text-align: center;
+.orbitingCircle {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  width: 4rem;
+  height: 4rem;
+  border: 1px solid var(--font-color);
+  border-radius: 50%;
+}
+
+@keyframes orbit {
+  from {
+    transform:
+      rotate(0deg)
+      translateX(300%);
+  }
+  to {
+    transform:
+      rotate(360deg)
+      translateX(300%);
+  }
+}
+
+@media (
+  prefers-reduced-motion: no-preference
+) {
+  .orbitingCircle {
+    animation:
+      orbit 6000ms linear infinite;
+  }
 }

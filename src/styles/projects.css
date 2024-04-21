@@ -6,14 +6,15 @@
 .projectsGrid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(45%, 1fr));
-  grid-auto-rows: 650px;
+  grid-auto-rows: auto;
   gap: 20px;
 }
 
 .gridCellContainer {
   width: 100%;
   height: 100%;
-  padding: 0 0 100px 0;
+  padding-bottom: calc(0.2 * 100%);
+  overflow: hidden;
 
   display: flex;
   flex-direction: column;
@@ -60,4 +61,34 @@
 
 .slide-in-right {
   transform: translateX(0);
+}
+
+@media (max-width: 1200px) {
+  .projectsGrid {
+    grid-template-columns: repeat(auto-fill, minmax(45%, 1fr));
+    grid-auto-rows: auto;
+    gap: 20px;
+  }
+}
+
+/* Media query for smaller screens (up to 768px) */
+@media (max-width: 768px) {
+  .projectsGrid {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .gridCellContainer {
+    height: 500px;
+    padding-bottom: calc(0.1 * 100%);
+  }
+}
+
+/* Media query for mobile devices (up to 480px) */
+@media (max-width: 480px) {
+  .gridCellContainer {
+    height: 280px;
+    padding-bottom: calc(0.05 * 100%);
+    gap: 5px;
+  }
 }

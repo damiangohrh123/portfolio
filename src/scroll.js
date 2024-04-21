@@ -84,6 +84,10 @@ function handleProjects(currentScroll) {
   })
 }
 
+function flipText() {
+
+}
+
 export {
   handleNavBar,
   handleBanner,

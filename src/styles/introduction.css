@@ -1,12 +1,14 @@
 .introductionSection {
+  width: 100%;
+  aspect-ratio: 16 / 8; 
   display: flex;
   justify-content: space-between;
   gap: 50px;
 }
 
 .banner {
-  height: 800px;
   width: 100%;
+  aspect-ratio: 16 / 8; 
   background-color: rgb(68, 152, 231);
   background-size: cover;
   background-repeat: no-repeat;

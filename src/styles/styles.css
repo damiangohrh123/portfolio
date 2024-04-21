@@ -19,7 +19,6 @@
 }
 
 :root  {
-  --font-size-base: 16px;
   --sub-font-color: rgb(123, 123, 123);
   --dark-grey: rgb(40, 40, 40);
   --white: white;
@@ -27,11 +26,13 @@
 
   --font-color: var(--dark-grey);
   --background-color: var(--grey);
+  --socials-color: var(--white);
 }
 
 :root[data-theme="dark"] {
   --font-color: var(--white);
   --background-color: var(--dark-grey);
+  --socials-color: var(--sub-font-color);
 }
 
 * {
@@ -42,10 +43,15 @@
 
 html {
   font-family: regularFont;
-  font-size: var(--font-size-base);
   letter-spacing: 2px;
   background-color: var(--background-color);
   color: var(--font-color);
+
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.content {
+  overflow-x: hidden;
 }
 
 body {
@@ -75,20 +81,58 @@ a:visited {
   color: var(--font-color);
 }
 
-button {
-  font-family: regularFont;
-  font-size: 2rem;
-  color: white;
-}
-
 .content {
   display: flex;
   flex-direction: column;
 
   width: 100%;
-  transition: background-color 0.5s ease;
 }
 
 .section {
   padding: 50px 120px 100px 120px;
+}
+
+.sectionText {
+  text-align: center;
+  padding: 200px 0 500px 0;
+}
+
+@media (max-width: 1200px) {
+  html {
+    font-size: 12px;
+  }
+
+  .section {
+    padding: 50px 70px 100px 70px;
+  }
+
+  .sectionText {
+    padding: 200px 0 400px 0;
+  }
+}
+
+/* Media query for smaller screens (up to 768px) */
+@media (max-width: 768px) {
+  html {
+    font-size: 8px;
+  }
+
+  .section {
+    padding: 50px 30px 100px 30px;
+  }
+
+  .sectionText {
+    padding: 100px 0 200px 0;
+  }
+}
+
+/* Media query for mobile devices (up to 480px) */
+@media (max-width: 480px) {
+  html {
+    font-size: 6px;
+  }
+
+  .section {
+    padding: 50px 10px 100px 10px;
+  }
 }
